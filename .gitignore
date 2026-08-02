@@ -1,0 +1,27 @@
+# --- large downloadable binary: fetched by setup_dedupe.bat ---
+fpcalc.exe
+
+# --- run artifacts ---
+dedupe_report_*.csv
+dedupe_report_*.txt
+_duplicates/
+
+# --- any audio that happens to sit here ---
+*.mp3
+*.m4a
+*.opus
+*.webm
+*.flac
+*.ogg
+*.wav
+downloads/
+
+# --- private / secret, just in case ---
+cookies.txt
+cookies*.txt
+
+# --- python / OS junk ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
