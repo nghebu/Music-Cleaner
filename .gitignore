@@ -25,3 +25,8 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+
+# Local-only documentation and task notes
+*.[mM][dD]
+[Tt]asks/
+[Tt]ask/
